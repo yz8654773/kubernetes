@@ -189,7 +189,7 @@ spec:
     spec:
       containers:
         - name: kubernetes-dashboard
-          image: 8654773/kubernetes-dashboard
+          image: 8654773/kubernetes-dashboard:v2.0.0-beta4
           #imagePullPolicy: Always
           ports:
             - containerPort: 8443
